@@ -8,7 +8,7 @@
     "verified": "13",
     "maximum": "13"
   },
-  "esmodules": ["scripts/main.js"],
+  "esmodules": ["scripts/module.js"],
   "styles": ["styles/camping-gear.css"],
   "authors": [{
     "name": "Custom Module"

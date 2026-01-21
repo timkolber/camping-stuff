@@ -1,0 +1,50 @@
+.deploy-gear {
+  color: #4a7c59;
+  flex: 0 0 auto;
+}
+
+.deploy-gear:hover {
+  color: #5a9c69;
+  text-shadow: 0 0 5px rgba(90, 156, 105, 0.5);
+}
+
+.pack-gear {
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px 16px;
+  background: linear-gradient(135deg, #4a7c59 0%, #3d6449 100%);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.pack-gear:hover {
+  background: linear-gradient(135deg, #5a9c69 0%, #4a7c59 100%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transform: translateY(-1px);
+}
+
+.pack-gear:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.pack-gear i {
+  margin-right: 6px;
+}
+
+.pack-gear-hud {
+  background: rgba(74, 124, 89, 0.8);
+  backdrop-filter: blur(4px);
+  transition: all 0.2s ease;
+}
+
+.pack-gear-hud:hover {
+  background: rgba(90, 156, 105, 0.95);
+  transform: scale(1.1);
+}
